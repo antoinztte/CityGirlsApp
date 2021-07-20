@@ -36,6 +36,14 @@
                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FJW-Ea-YDV"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="type here if you think we'll finish by Friday" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vcR-wp-0Nb">
+                                <rect key="frame" x="30" y="377" width="354" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textField:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="YYm-MA-FWT"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -44,7 +52,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZDZ-4f-aIl" secondAttribute="trailing" constant="170" id="940-rh-sJm"/>
                             <constraint firstItem="ZDZ-4f-aIl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="170" id="LOn-f4-RsJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FaO-IG-ziW" secondAttribute="trailing" constant="128" id="e4b-ye-t5N"/>
+                            <constraint firstItem="vcR-wp-0Nb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="p1w-iP-5UJ"/>
                             <constraint firstItem="FaO-IG-ziW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="ry2-hV-6UA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vcR-wp-0Nb" secondAttribute="trailing" constant="30" id="w6Q-jW-umd"/>
                         </constraints>
                     </view>
                     <connections>
