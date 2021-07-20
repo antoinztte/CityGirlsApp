@@ -18,6 +18,8 @@ class ViewController: UIViewController {
 
     @IBAction func button(_ sender: UIButton) {
     }
+    @IBAction func button(_ sender: Any) {
+    }
     
 }
 
